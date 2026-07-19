@@ -149,9 +149,9 @@ const App = () => {
 
             {/* Typography Stack */}
             <div className="flex flex-col">
-    <h1 className="font-sans text-2xl md:text-3xl tracking-tight leading-none text-white">
+    <h1 className="font-sans text-3xl md:text-4xl tracking-tight leading-none text-white">
       <span className="font-semibold">Echo</span>
-      <span className="text-muted font-normal font-serif  px-0.5 text-2xl md:text-3xl">Script</span>
+      <span className="text-muted font-normal font-serif  px-0.5 text-3xl md:text-4xl">Script</span>
     </h1>
     <span className="font-mono text-[8.5px] tracking-widest text-muted-dim mt-1 uppercase">
       INTELLIGENT TRANSCRIPTION
