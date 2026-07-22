@@ -132,10 +132,10 @@ const App = () => {
     <div className="relative min-h-screen bg-ink text-ivory font-sans overflow-hidden">
       {/* Background Blobs */}
       <div className="pointer-events-none fixed inset-0">
-        <div className="blob w-105 h-[420px] bg-violet -top-20 -left-24" />
-        <div className="blob w-[380px] h-[380px] bg-pink top-1/3 -right-20" style={{ animationDelay: '4s' }} />
-        <div className="blob w-[340px] h-[340px] bg-cyan bottom-0 left-1/4" style={{ animationDelay: '9s' }} />
-        <div className="blob w-[300px] h-[300px] bg-amber top-1/2 left-1/2" style={{ animationDelay: '13s' }} />
+        <div className="blob w-105 h-105 bg-violet -top-20 -left-24" />
+        <div className="blob w-95 h-95 bg-pink top-1/3 -right-20" style={{ animationDelay: '4s' }} />
+        <div className="blob w-85 h-85 bg-cyan bottom-0 left-1/4" style={{ animationDelay: '9s' }} />
+        <div className="blob w-75 h-75 bg-amber top-1/2 left-1/2" style={{ animationDelay: '13s' }} />
       </div>
 
       {/* Full Window Parent Container */}
