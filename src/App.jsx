@@ -185,9 +185,9 @@ const App = () => {
               {/* Floating App Console Menu */}
               {showAppConsole && (
                 <div className="absolute right-0 top-full mt-2 w-72 md:w-80 p-4 rounded-2xl bg-black/40 border border-white/10 backdrop-blur-xl shadow-2xl animate-in fade-in slide-in-from-top-2 duration-150 z-50">
-                  <div className="font-mono text-[10px] tracking-widest text-muted-dim mb-3 flex items-center gap-1">
+                  <div className="font-mono text-[10px] tracking-widest text-muted/80 mb-3 flex items-center gap-1">
                     <SparkleIcon size={12} className="text-amber animate-pulse" />
-                    <span>PROJECTS BY PRITAM ROY</span>
+                    <span>MORE APPS BY PRITAM</span>
                   </div>
                   <div className="grid gap-2">
                     {pritamApps.map((app) => (
